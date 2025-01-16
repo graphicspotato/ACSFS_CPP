@@ -9,6 +9,8 @@
 #include <iostream>
 #include "Cube.h"
 
+using namespace OurCube;
+
 int main() {
   Cube c;
   Cube c1;

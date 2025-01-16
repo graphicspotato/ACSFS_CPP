@@ -11,13 +11,16 @@
 // A class is defined with the `class` keyword, the name
 // of the class, curly braces, and a required semicolon
 // at the end:
-class Cube {
-  public:  // Public members:
-    double getVolume();
-    double getSurfaceArea();
-    void setLength(double length);
+namespace OurCube {
+    class Cube {
+    public:  // Public members:
+        double getVolume();
+        double getSurfaceArea();
+        void setLength(double length);
 
-  private: // Private members:
-    double length_;
-     
-};
+    private: // Private members:
+        double length_;
+
+    };
+}
+
