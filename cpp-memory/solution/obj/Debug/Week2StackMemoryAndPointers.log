@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  foo.cpp
+  puzzle.cpp
+  Generating Code...
+C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\cpp-memory\puzzle.cpp(17): warning C4172: returning address of local variable or temporary: cube
   Week2StackMemoryAndPointers.vcxproj -> C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\cpp-memory\bin\Debug\Week2StackMemoryAndPointers.exe

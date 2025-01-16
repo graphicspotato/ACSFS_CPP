@@ -5,14 +5,14 @@
 // *   Wade Fagen-Ulmschneider <waf@illinois.edu>
 // */
 //
-//#include <iostream>
-//
-//void foo() {
-//  int x = 42;
-//  std::cout << " x in foo(): " <<  x << std::endl;
-//  std::cout << "&x in foo(): " << &x << std::endl;
-//}
-//
+#include <iostream>
+
+void foo() {
+  int x = 42;
+  std::cout << " x in foo(): " <<  x << std::endl;
+  std::cout << "&x in foo(): " << &x << std::endl;
+}
+
 //int main() {
 //  int num = 7;
 //  std::cout << " num in main(): "   <<  num << std::endl;
