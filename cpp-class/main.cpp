@@ -11,10 +11,14 @@
 
 int main() {
   Cube c;
+  Cube c1;
+
+  c1.setLength(5.0);
 
   c.setLength(3.48);
   double volume = c.getVolume();
   std::cout << "Volume: " << volume << std::endl;
+  std::cout << "Biggr Volume: " << c1.getVolume() << std::endl;
 
   return 0;
 }

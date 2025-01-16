@@ -19,4 +19,5 @@ class Cube {
 
   private: // Private members:
     double length_;
+     
 };
