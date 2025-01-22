@@ -19,7 +19,9 @@ using std::endl;
 void Game::solve() {
   // Prints out the state of the game:
   cout << *this << endl;
-
+  
+  stacks_[1].push_back(stacks_[0].peekTop());
+  //stacks_[0].removeTop();
   // @TODO -- Finish solving the game!
 }
 
