@@ -1,0 +1,8 @@
+﻿  ImageTransform.cpp
+C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\week4\assignment\ImageTransform.cpp(70,21): warning C4018: '<': signed/unsigned mismatch
+C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\week4\assignment\ImageTransform.cpp(72,25): warning C4018: '<': signed/unsigned mismatch
+C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\week4\assignment\ImageTransform.cpp(109,23): warning C4018: '<': signed/unsigned mismatch
+C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\week4\assignment\ImageTransform.cpp(111,27): warning C4018: '<': signed/unsigned mismatch
+C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\week4\assignment\ImageTransform.cpp(151,23): warning C4018: '<': signed/unsigned mismatch
+C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\week4\assignment\ImageTransform.cpp(153,27): warning C4018: '<': signed/unsigned mismatch
+  Assignment.vcxproj -> C:\dev\C++\AcceleratedCSCoursera\ACSFS_CPP\week4\assignment\bin\Debug\Assignment.exe

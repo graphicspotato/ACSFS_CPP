@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="uiuc">
+      <UniqueIdentifier>{FB059F7C-E73C-A00D-9029-86107C3F1C0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uiuc\catch">
+      <UniqueIdentifier>{0D714109-F928-8356-6230-5CB24E071E47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uiuc\lodepng">
+      <UniqueIdentifier>{3305B633-1F68-45D8-C8ED-7D8EB42F115B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ImageTransform.h" />
+    <ClInclude Include="..\uiuc\HSLAPixel.h">
+      <Filter>uiuc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uiuc\PNG.h">
+      <Filter>uiuc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uiuc\RGB_HSL.h">
+      <Filter>uiuc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uiuc\catch\catch.hpp">
+      <Filter>uiuc\catch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uiuc\lodepng\lodepng.h">
+      <Filter>uiuc\lodepng</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ImageTransform.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\uiuc\HSLAPixel.cpp">
+      <Filter>uiuc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uiuc\PNG.cpp">
+      <Filter>uiuc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uiuc\catch\catchmain.cpp">
+      <Filter>uiuc\catch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uiuc\lodepng\lodepng.cpp">
+      <Filter>uiuc\lodepng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\alma.png" />
+    <Image Include="..\overlay.png" />
+    <Image Include="alma.png" />
+    <Image Include="overlay.png" />
+  </ItemGroup>
+</Project>
